@@ -4,11 +4,18 @@
 Use make in project's directory
 
 ```bash
-  make
+  $ make
+  cc -g -Wall   -c -o point.o point.c
+  gcc point.o -o point -ljpeg -lm -largtable2
 ```
 
 ```bash
-  ./point -h
+  $ make clean
+  rm -f point point.o
+```
+
+```bash
+  $ ./point -h
   Usage: point [-h] -i <input> -o <output> -f <filter> [-t <times>] [-a <axis>] [-p <percent>]
   -i, --input-file=<input>  Input JPEG File
   -o, --out-file=<output>   Output JPEG File
