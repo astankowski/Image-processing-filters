@@ -1,0 +1,6 @@
+*.jpeg
+*.o
+.vscode
+.bash_history
+point
+point_start
