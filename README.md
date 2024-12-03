@@ -1,4 +1,4 @@
-# Image-processing-filters
+# Image processing filters
 ## How to run
 
 Use make in project's directory
